@@ -1,0 +1,6 @@
+create table univeristy(regid number primary key,sname char(5),gender char(1),year integer,collegename varchar(10));
+Insert into univeristy (regid,sname,gender,year,collegename)values(501,'ram','m',2022,'aditya');
+insert into univeristy(regid,sname,gender,year,collegename)values(502,'rani','f',2022,'aditya');
+insert into univeristy(regid,sname,gender,year,collegename)values(503,'raj','m',2022,'aditya');
+insert into univeristy(regid,sname,gender,year,collegename)values(504,'gani','m',2022,'aditya');
+insert into univeristy(regid,sname,gender,year,collegename)values(505,'ganga','f',2022,'aditya');
