@@ -1,0 +1,6 @@
+create table examhalltickets(htno integer primary key,sname char(5),examcenter char(10),regid number references univeristy(regid));
+insert into examhalltickets(htno,sname,examcenter,regid)values(102020,'raj','eluru',503);
+insert into examhalltickets(htno,sname,examcenter,regid)values(102021,'ram','eluru',501);
+insert into examhalltickets(htno,sname,examcenter,regid)values(102022,'rani','eluru',502);
+insert into examhalltickets(htno,sname,examcenter,regid)values(102023,'ganga','eluru',505);
+insert into examhalltickets(htno,sname,examcenter,regid)values(102024,'gani','eluru',504);
