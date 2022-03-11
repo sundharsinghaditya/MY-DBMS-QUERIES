@@ -1,0 +1,12 @@
+insert into adc1.employee values(1,'singh','programmer',100);
+insert into adc1.employee values(2,'ganesh','programmer',200);
+ insert into adc1.employee values(3,'aditya','programmer',300);
+insert into adc1.employee values(4,'thanoosha','programmer',400);
+ insert into adc1.employee values(5,'revathi','programmer',500);
+select * from adc1.employee;
+ commit;
+ insert into adc1.employee values(6,'rajesh','programmer',100);
+insert into adc1.employee values(7,'suresh','programmer',100);
+savepoint aditya1;
+select * from adc1.employee;
+rollback to aditya1;
