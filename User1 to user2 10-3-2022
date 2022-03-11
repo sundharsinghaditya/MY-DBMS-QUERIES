@@ -1,0 +1,2 @@
+create table employee(eno int,ename char(10),design char(10),salary int );
+ grant all on employee to adc2;
